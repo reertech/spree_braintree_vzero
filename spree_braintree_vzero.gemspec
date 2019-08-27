@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '>= 3.1.0', '< 5.0'
+  spree_version = '~> 3.7.0'
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_backend', spree_version
   s.add_dependency 'spree_frontend', spree_version
@@ -48,6 +48,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'sqlite3', '~> 1.3.6'
+  s.add_development_dependency 'sass'
   s.add_development_dependency 'vcr'
   s.add_development_dependency 'webmock', '~> 2.3' # https://github.com/bblimke/webmock/issues/683
 end
