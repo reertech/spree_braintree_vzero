@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'spree', '~> 3.7.0'
+gem 'spree', '~> 4.0'
 
 # Provides basic authentication functionality for testing parts of your engine
 unless ENV['WITHOUT_SPREE_AUTH_DEVISE'] == 'true'

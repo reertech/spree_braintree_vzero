@@ -22,13 +22,13 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  spree_version = '~> 3.7.0'
+  spree_version = '~> 4.0'
   s.add_dependency 'spree_core', spree_version
   s.add_dependency 'spree_backend', spree_version
   s.add_dependency 'spree_frontend', spree_version
   s.add_dependency 'spree_extension'
-  s.add_dependency 'braintree', '>= 2.40.0'
-  s.add_dependency 'deface', '~> 1.0'
+  s.add_dependency 'braintree'
+  s.add_dependency 'deface'
   s.add_dependency 'whenever'
 
   s.add_development_dependency 'appraisal'
@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mysql2'
   s.add_development_dependency 'pg'
   s.add_development_dependency 'pry'
-  s.add_development_dependency 'rspec-rails', '~> 4.0.0.beta2'
+  s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'sass-rails'
   s.add_development_dependency 'selenium-webdriver'
   s.add_development_dependency 'simplecov'
